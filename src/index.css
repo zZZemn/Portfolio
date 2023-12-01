@@ -5,8 +5,11 @@
 }
 
 .nav-bar-container {
+  position: fixed;
+  width: 100%;
+  top: 0;
   height: 70px;
-  z-index: 20;
+  z-index: 1000 !important;
 }
 
 .nav-logo {
@@ -44,6 +47,71 @@
   padding: 0px 5px;
 }
 
+/* Main */
+.main-container {
+  position: relative;
+  top: 70px;
+  height: calc(100vh - 70px);
+  overflow-y: auto;
+}
+
+.components-main-container {
+  max-width: 800px;
+  margin: auto;
+}
+/* Main End */
+
+/* Home */
+.color-black-heading {
+  color: rgb(78, 78, 78);
+}
+
+.btn-dl-cv {
+  font-size: 14px;
+}
+
+.my-photo-container img {
+  height: 170px;
+  border-radius: 10%;
+}
+
+.contacts-ul li {
+  position: relative;
+  height: 40px;
+  padding: 0 !important;
+  margin: 3px;
+}
+
+.contacts-ul li a {
+  position: absolute;
+  height: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  text-decoration: none;
+}
+
+.contacts-ul li a span {
+  margin-left: 10px;
+}
+/* Home End */
+
+/* About */
+.about-me-container {
+  border-left: 2px solid rgb(78, 78, 78);
+  padding-left: 20px;
+}
+
+.tech-icon-container {
+  font-size: 40px;
+}
+
+.icon-name {
+  font-size: 12px;
+}
+/* About End */
+
 @media (max-width: 700px) {
   .nav-bar-container {
     justify-content: space-between !important;
@@ -54,7 +122,6 @@
     position: absolute;
     top: 70px;
     left: 0;
-    background-color: black;
     padding: 10px;
     width: 100%;
     flex-direction: column;
@@ -93,5 +160,24 @@
 
   .btn-toggle-nav {
     display: block;
+  }
+}
+
+@media (max-width: 559px) {
+  .my-details-container {
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  .my-photo-container {
+    margin-bottom: 0 !important;
+  }
+
+  .details-container {
+    margin-top: 0 !important;
+  }
+
+  .btn-dl-cv {
+    font-size: 12px;
   }
 }

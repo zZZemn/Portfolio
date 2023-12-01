@@ -43,15 +43,6 @@ const NavBar = ({ handleNavLinkClick }) => {
               Projects
             </a>
           </li>
-          <li>
-            <a
-              href="#"
-              id="Contacts"
-              onClick={() => handleNavLinkClick("Contacts")}
-            >
-              Contact
-            </a>
-          </li>
         </ul>
         <button className="btn-toggle-nav" onClick={toggleNavBar}>
           <i className={isNavBarVisible ? `bi bi-x-lg` : `bi bi-list`}></i>
