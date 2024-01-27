@@ -168,6 +168,11 @@
   .btn-toggle-nav {
     display: block;
   }
+
+  .cert-img {
+    max-width: 450px;
+    max-height: 450px;
+  }
 }
 
 @media (max-width: 559px) {
@@ -186,5 +191,24 @@
 
   .btn-dl-cv {
     font-size: 12px;
+  }
+
+  .cert-img {
+    max-width: 400px;
+    max-height: 400px;
+  }
+}
+
+@media (max-width: 500px) {
+  .cert-img {
+    max-width: 350px;
+    max-height: 350px;
+  }
+}
+
+@media (max-width: 450px) {
+  .cert-img {
+    max-width: 250px;
+    max-height: 250px;
   }
 }

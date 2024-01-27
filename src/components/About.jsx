@@ -18,7 +18,7 @@ function About() {
         </div>
         <div className="about-me-container mt-5">
           <h6 className="color-black-heading">My Technologies</h6>
-          <div className="technology-icons-container d-flex">
+          <div className="technology-icons-container d-flex flex-wrap">
             <div className="tech-icon-container text-secondary d-flex flex-column align-items-center m-2">
               <i class="fa-brands fa-html5"></i>
               <span className="icon-name">HTML5</span>
