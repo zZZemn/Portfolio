@@ -7,7 +7,7 @@ function Projects() {
         <h3 className="color-black-heading">Projects</h3>
         <hr />
         <div className="project-container">
-          <img src="../src/assets/projects/p-gorder.png" />
+          <img src="./src/assets/projects/p-gorder.png" />
           <h6 className="color-black-heading mt-3">GOrder</h6>
           <p className="text-secondary">
             A Sales and Inventory Website with Ordering Mobile Application for
@@ -16,7 +16,7 @@ function Projects() {
         </div>
         <hr />
         <div className="project-container">
-          <img src="../src/assets/projects/p-petclinic.png" />
+          <img src="./src/assets/projects/p-petclinic.png" />
           <h6 className="color-black-heading mt-3">Pet Clinic</h6>
           <p className="text-secondary">
             A Record Management System for Pet Clinic.
