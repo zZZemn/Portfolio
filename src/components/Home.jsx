@@ -6,7 +6,7 @@ function Home() {
       <div className="components-main-container container">
         <div className="my-details-container d-flex justify-content-between align-items-center flex-wrap-reverse">
           <div className="details-container m-3 pt-3">
-            <h1 className="color-black-heading">Emmanuel Ugaban</h1>
+            <h1 className="color-black-heading">Emmanuel Ugabana</h1>
             <div className="role-and-btn-dl-cv-container">
               <h6 className="text-secondary">Website Developer</h6>
               <button className="btn btn-success btn-dl-cv">
@@ -15,7 +15,7 @@ function Home() {
             </div>
           </div>
           <div className="my-photo-container m-3">
-            <img src="src/assets/2x2.jpg" alt="Emman's photo" />
+            <img src="/src/assets/2x2.jpg" alt="Emman's photo" />
           </div>
         </div>
 
