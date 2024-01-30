@@ -10,7 +10,7 @@ const NavBar = ({ handleNavLinkClick }) => {
   return (
     <>
       <div className="nav-bar-container d-flex justify-content-around align-items-center bg-dark">
-        <div>
+        <div className="nav-top">
           <a
             href="#"
             className="nav-logo"
@@ -25,12 +25,26 @@ const NavBar = ({ handleNavLinkClick }) => {
           }`}
         >
           <li>
-            <a href="#" id="Home" onClick={() => handleNavLinkClick("Home")}>
+            <a
+              href="#"
+              id="Home"
+              onClick={() => {
+                handleNavLinkClick("Home");
+                toggleNavBar();
+              }}
+            >
               Home
             </a>
           </li>
           <li>
-            <a href="#" id="About" onClick={() => handleNavLinkClick("About")}>
+            <a
+              href="#"
+              id="About"
+              onClick={() => {
+                handleNavLinkClick("About");
+                toggleNavBar();
+              }}
+            >
               About
             </a>
           </li>
@@ -38,7 +52,10 @@ const NavBar = ({ handleNavLinkClick }) => {
             <a
               href="#"
               id="Projects"
-              onClick={() => handleNavLinkClick("Projects")}
+              onClick={() => {
+                handleNavLinkClick("Projects");
+                toggleNavBar();
+              }}
             >
               Projects
             </a>

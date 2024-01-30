@@ -9,7 +9,7 @@
   width: 100%;
   top: 0;
   height: 70px;
-  z-index: 1000 !important;
+  z-index: 100 !important;
 }
 
 .nav-logo {
@@ -148,11 +148,11 @@
     transition: all 0.5s;
     z-index: -1;
 
-    transform: translateY(-200%);
+    transform: translateX(-200%);
   }
 
   .show-nav-bar {
-    transform: translateY(0);
+    transform: translateX(0);
   }
 
   .nav-bar-ul li {
