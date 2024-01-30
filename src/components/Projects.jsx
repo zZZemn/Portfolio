@@ -7,7 +7,7 @@ function Projects() {
         <h3 className="color-black-heading">Projects</h3>
         <hr />
         <div className="project-container">
-          <img src="./src/assets/projects/p-gorder.png" />
+          <img src="https://github.com/zZZemn/Portfolio/blob/main/src/assets/projects/p-gorder.png?raw=true" />
           <h6 className="color-black-heading mt-3">GOrder</h6>
           <p className="text-secondary">
             A Sales and Inventory Website with Ordering Mobile Application for
@@ -52,9 +52,7 @@ function Projects() {
         <div className="project-container">
           <img src="./src/assets/projects/p-icds.png" />
           <h6 className="color-black-heading mt-3">ICDS</h6>
-          <p className="text-secondary">
-            A Directory System for Iloilo
-          </p>
+          <p className="text-secondary">A Directory System for Iloilo</p>
         </div>
       </div>
     </>
