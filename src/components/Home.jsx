@@ -9,9 +9,15 @@ function Home() {
             <h1 className="color-black-heading">Emmanuel Ugaban</h1>
             <div className="role-and-btn-dl-cv-container">
               <h6 className="text-secondary">Website Developer</h6>
-              <button className="btn btn-success btn-dl-cv">
-                <i class="bi bi-file-earmark-arrow-down-fill"></i> Download CVs
-              </button>
+              <a
+                // href="https://raw.githubusercontent.com/zZZemn/Portfolio/main/src/assets/2x2.jpg"
+                href="./src/assets/2x2.jpg"
+                className="btn btn-success btn-dl-cv"
+                download="2x2.jpg"
+              >
+                <i className="bi bi-file-earmark-arrow-down-fill"></i> Download
+                CV
+              </a>
             </div>
           </div>
           <div className="my-photo-container m-3">
