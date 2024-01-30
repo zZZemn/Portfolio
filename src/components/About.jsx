@@ -62,32 +62,32 @@ function About() {
           <h6 className="color-black-heading">Certification</h6>
           <div className="certificates-container container">
             <img
-              src="./src/assets/certificates/Skourse Academy.png"
+              src="https://github.com/zZZemn/Portfolio/blob/main/src/assets/certificates/Skourse%20Academy.png?raw=true"
               alt="Certificate"
               className="cert-img"
             />
             <img
-              src="./src/assets/certificates/Introduction to Cloud Computing.png"
+              src="https://github.com/zZZemn/Portfolio/blob/main/src/assets/certificates/Introduction%20to%20Cloud%20Computing.png?raw=true"
               alt="Certificate"
               className="cert-img"
             />
             <img
-              src="./src/assets/certificates/Ethical Hacking.png"
+              src="https://github.com/zZZemn/Portfolio/blob/main/src/assets/certificates/Introduction%20to%20Ethical%20Hacking.png?raw=true"
               alt="Certificate"
               className="cert-img"
             />
             <img
-              src="./src/assets/certificates/Intoduction to Cybercrime.png"
+              src="https://github.com/zZZemn/Portfolio/blob/main/src/assets/certificates/Intoduction%20to%20Cybercrime.png?raw=true"
               alt="Certificate"
               className="cert-img"
             />
             <img
-              src="./src/assets/certificates/Introduction to Cyber Security.png"
+              src="https://github.com/zZZemn/Portfolio/blob/main/src/assets/certificates/Introduction%20to%20Cyber%20Security.png?raw=true"
               alt="Certificate"
               className="cert-img"
             />
             <img
-              src="./src/assets/certificates/Introduction to Ethical Hacking.png"
+              src="https://github.com/zZZemn/Portfolio/blob/main/src/assets/certificates/Introduction%20to%20Ethical%20Hacking.png?raw=true"
               alt="Certificate"
               className="cert-img"
             />
