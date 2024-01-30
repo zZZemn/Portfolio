@@ -10,12 +10,15 @@ function Home() {
             <div className="role-and-btn-dl-cv-container">
               <h6 className="text-secondary">Website Developer</h6>
               <button className="btn btn-success btn-dl-cv">
-                <i class="bi bi-file-earmark-arrow-down-fill"></i> Download CV
+                <i class="bi bi-file-earmark-arrow-down-fill"></i> Download CVs
               </button>
             </div>
           </div>
           <div className="my-photo-container m-3">
-            <img src="https://github.com/zZZemn/Portfolio/blob/main/src/assets/2x2.jpg" alt="Emman's photo" />
+            <img
+              src="https://raw.githubusercontent.com/zZZemn/Portfolio/main/src/assets/2x2.jpg"
+              alt="Emman's photo"
+            />
           </div>
         </div>
 
