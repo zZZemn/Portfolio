@@ -10,7 +10,7 @@ function Home() {
             <div className="role-and-btn-dl-cv-container">
               <h6 className="text-secondary">Website Developer</h6>
               <a
-                href="https://github.com/zZZemn/Portfolio/blob/main/src/assets/2x2.jpg?raw=true"
+                href="https://github.com/zZZemn/Portfolio/blob/main/src/assets/Emmanuel%20Ugaban.png?raw=true"
                 className="btn btn-success btn-dl-cv"
                 target="blank"
               >
