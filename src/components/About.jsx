@@ -7,13 +7,11 @@ function About() {
         <div className="about-me-container">
           <h3 className="color-black-heading">About me</h3>
           <p className="text-secondary">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Voluptatibus quod sint accusantium? Quaerat, eaque dolore saepe
-            obcaecati sint blanditiis ab sit ipsam impedit, eveniet odio
-            similique numquam velit pariatur voluptatum nemo sapiente. Vel
-            obcaecati eaque praesentium autem sint voluptas tenetur alias
-            impedit, maxime aliquam, blanditiis doloribus! Reprehenderit iure
-            illo dolores!
+            I am a 21-year-old fourth-year BSIT student with a year of freelance
+            web development experience. With a deep passion for programming,
+            particularly in web development, I thrive on teamwork and am
+            constantly seeking opportunities to collaborate with skilled
+            developers to enhance my knowledge and skills in the field.
           </p>
         </div>
         <div className="about-me-container mt-5">
