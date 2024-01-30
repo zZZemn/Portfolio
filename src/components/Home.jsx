@@ -32,7 +32,10 @@ function Home() {
           </center>
           <ul className="list-group contacts-ul">
             <li className="list-group-item">
-              <a href="mailto:ugabane0516@gmail.com" className="text-secondary">
+              <a
+                href="mailto:emmanuelugaban12@gmail.com"
+                className="text-secondary"
+              >
                 <i class="bi bi-envelope-at"></i> <span>Email</span>
               </a>
             </li>
