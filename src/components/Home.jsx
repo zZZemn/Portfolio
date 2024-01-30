@@ -10,13 +10,11 @@ function Home() {
             <div className="role-and-btn-dl-cv-container">
               <h6 className="text-secondary">Website Developer</h6>
               <a
-                // href="https://raw.githubusercontent.com/zZZemn/Portfolio/main/src/assets/2x2.jpg"
-                href="./src/assets/2x2.jpg"
+                href="https://github.com/zZZemn/Portfolio/blob/main/src/assets/2x2.jpg?raw=true"
                 className="btn btn-success btn-dl-cv"
-                download="2x2.jpg"
+                target="blank"
               >
-                <i className="bi bi-file-earmark-arrow-down-fill"></i> Download
-                CV
+                <i class="bi bi-file-earmark-person-fill"></i> Resume
               </a>
             </div>
           </div>
