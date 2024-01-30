@@ -62,32 +62,32 @@ function About() {
           <h6 className="color-black-heading">Certification</h6>
           <div className="certificates-container container">
             <img
-              src="../src/assets/certificates/Skourse Academy.png"
+              src="./src/assets/certificates/Skourse Academy.png"
               alt="Certificate"
               className="cert-img"
             />
             <img
-              src="../src/assets/certificates/Introduction to Cloud Computing.png"
+              src="./src/assets/certificates/Introduction to Cloud Computing.png"
               alt="Certificate"
               className="cert-img"
             />
             <img
-              src="../src/assets/certificates/Ethical Hacking.png"
+              src="./src/assets/certificates/Ethical Hacking.png"
               alt="Certificate"
               className="cert-img"
             />
             <img
-              src="../src/assets/certificates/Intoduction to Cybercrime.png"
+              src="./src/assets/certificates/Intoduction to Cybercrime.png"
               alt="Certificate"
               className="cert-img"
             />
             <img
-              src="../src/assets/certificates/Introduction to Cyber Security.png"
+              src="./src/assets/certificates/Introduction to Cyber Security.png"
               alt="Certificate"
               className="cert-img"
             />
             <img
-              src="../src/assets/certificates/Introduction to Ethical Hacking.png"
+              src="./src/assets/certificates/Introduction to Ethical Hacking.png"
               alt="Certificate"
               className="cert-img"
             />

@@ -24,7 +24,7 @@ function Projects() {
         </div>
         <hr />
         <div className="project-container">
-          <img src="../src/assets/projects/p-prmsu.png" />
+          <img src="./src/assets/projects/p-prmsu.png" />
           <h6 className="color-black-heading mt-3">PRMSU</h6>
           <p className="text-secondary">
             A File Management System for College of Engineering at President
@@ -33,7 +33,7 @@ function Projects() {
         </div>
         <hr />
         <div className="project-container">
-          <img src="../src/assets/projects/p-vsf.png" />
+          <img src="./src/assets/projects/p-vsf.png" />
           <h6 className="color-black-heading mt-3">VSF</h6>
           <p className="text-secondary">
             A Vacation Spot Finder for San Pablo Laguna.
@@ -41,7 +41,7 @@ function Projects() {
         </div>
         <hr />
         <div className="project-container">
-          <img src="../src/assets/projects/p-isabelapp.png" />
+          <img src="./src/assets/projects/p-isabelapp.png" />
           <h6 className="color-black-heading mt-3">ISABELAPP</h6>
           <p className="text-secondary">
             A Accommodation, Products, News, Tourist Spot and Restaurant
@@ -50,7 +50,7 @@ function Projects() {
         </div>
         <hr />
         <div className="project-container">
-          <img src="../src/assets/projects/p-icds.png" />
+          <img src="./src/assets/projects/p-icds.png" />
           <h6 className="color-black-heading mt-3">ICDS</h6>
           <p className="text-secondary">
             A Directory System for Iloilo

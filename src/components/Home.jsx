@@ -15,7 +15,7 @@ function Home() {
             </div>
           </div>
           <div className="my-photo-container m-3">
-            <img src="./src/assets/2x2.jpg" alt="Emman's photo" />
+            <img src="https://github.com/zZZemn/Portfolio/blob/main/src/assets/2x2.jpg" alt="Emman's photo" />
           </div>
         </div>
 
