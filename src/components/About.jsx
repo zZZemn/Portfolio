@@ -1,4 +1,5 @@
 import { useState } from "react";
+import TechComponent from "./TechComponent";
 
 function About() {
   return (
@@ -7,52 +8,67 @@ function About() {
         <div className="about-me-container">
           <h3 className="color-black-heading">About me</h3>
           <p className="text-secondary">
-            I am a 21-year-old fourth-year BSIT student with a year of freelance
-            web development experience. With a deep passion for programming,
-            particularly in web development, I thrive on teamwork and am
-            constantly seeking opportunities to collaborate with skilled
-            developers to enhance my knowledge and skills in the field.
+            I am a software developer who loves building websites and web
+            applications that are easy to use and look great. I enjoy solving
+            problems and turning ideas into reality through code. As a recent
+            graduate, I am always eager to learn new things and keep up with the
+            latest trends in technology. I’m passionate about creating digital
+            experiences that make life easier and more enjoyable for people.
           </p>
         </div>
         <div className="about-me-container mt-5">
           <h6 className="color-black-heading">My Technologies</h6>
           <div className="technology-icons-container d-flex flex-wrap">
-            <div className="tech-icon-container text-secondary d-flex flex-column align-items-center m-2">
-              <i class="fa-brands fa-html5"></i>
-              <span className="icon-name">HTML5</span>
-            </div>
-            <div className="tech-icon-container text-secondary d-flex flex-column align-items-center m-2">
-              <i class="fa-brands fa-css3-alt"></i>
-              <span className="icon-name">CSS3</span>
-            </div>
-            <div className="tech-icon-container text-secondary d-flex flex-column align-items-center m-2">
-              <i class="fa-brands fa-bootstrap"></i>
-              <span className="icon-name">Bootstrap</span>
-            </div>
-            <div className="tech-icon-container text-secondary d-flex flex-column align-items-center m-2">
-              <i class="fa-brands fa-js"></i>
-              <span className="icon-name">JavaScript</span>
-            </div>
-            <div className="tech-icon-container text-secondary d-flex flex-column align-items-center m-2">
-              <i class="fa-brands fa-react"></i>
-              <span className="icon-name">React</span>
-            </div>
-            <div className="tech-icon-container text-secondary d-flex flex-column align-items-center m-2">
-              <i class="fa-brands fa-js"></i>
-              <span className="icon-name">JQuery</span>
-            </div>
-            <div className="tech-icon-container text-secondary d-flex flex-column align-items-center m-2">
-              <i class="fa-brands fa-php"></i>
-              <span className="icon-name">PHP</span>
-            </div>
-            <div className="tech-icon-container text-secondary d-flex flex-column align-items-center m-2">
-              <i class="fa-solid fa-database"></i>
-              <span className="icon-name">MySql</span>
-            </div>
-            <div className="tech-icon-container text-secondary d-flex flex-column align-items-center m-2">
-              <i class="fa-brands fa-python"></i>
-              <span className="icon-name">Python</span>
-            </div>
+            <TechComponent IconClass={"fa-brands fa-html5"} IconName={"HTML"} />
+            <TechComponent
+              IconClass={"fa-brands fa-css3-alt"}
+              IconName={"CSS"}
+            />
+            <TechComponent
+              IconClass={"fa-brands fa-js"}
+              IconName={"Javascript"}
+            />
+
+            <TechComponent
+              IconClass={"fa-brands fa-node"}
+              IconName={"Node.Js"}
+            />
+            <TechComponent
+              IconClass={"fa-brands fa-js"}
+              IconName={"Express.Js"}
+            />
+            <TechComponent
+              IconClass={"fa-brands fa-react"}
+              IconName={"React.Js"}
+            />
+            <TechComponent
+              IconClass={"fa-brands fa-vuejs"}
+              IconName={"Vue.Js"}
+            />
+            <TechComponent IconClass={"fa-brands fa-js"} IconName={"JQuery"} />
+
+            <TechComponent IconClass={"fa-solid fa-code"} IconName={".C#"} />
+            <TechComponent IconClass={"fa-solid fa-code"} IconName={".NET"} />
+            <TechComponent IconClass={"fa-solid fa-code"} IconName={"Blazor"} />
+
+            <TechComponent IconClass={"fa-brands fa-php"} IconName={"PHP"} />
+
+            <TechComponent
+              IconClass={"fa-solid fa-database"}
+              IconName={"MySQL"}
+            />
+            <TechComponent
+              IconClass={"fa-solid fa-database"}
+              IconName={"SQL Server"}
+            />
+            <TechComponent
+              IconClass={"fa-solid fa-database"}
+              IconName={"MongoDB"}
+            />
+            <TechComponent
+              IconClass={"fa-solid fa-database"}
+              IconName={"Firebase"}
+            />
           </div>
         </div>
 

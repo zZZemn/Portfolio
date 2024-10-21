@@ -8,7 +8,7 @@ function Home() {
           <div className="details-container m-3 pt-3">
             <h1 className="color-black-heading">Emmanuel Ugaban</h1>
             <div className="role-and-btn-dl-cv-container">
-              <h6 className="text-secondary">Website Developer</h6>
+              <h6 className="text-secondary">Software Developer</h6>
               <a
                 href="https://github.com/zZZemn/Portfolio/blob/main/src/assets/Emmanuel%20Ugaban.png?raw=true"
                 className="btn btn-success btn-dl-cv"
@@ -30,7 +30,7 @@ function Home() {
 
         <div className="home-contacts-container">
           <center>
-            <h5 className="color-black-heading mt-3 mb-3">
+            <h5 className="color-black-heading my-4">
               Contact Me <i class="bi bi-person-lines-fill"></i>
             </h5>
           </center>
@@ -45,24 +45,6 @@ function Home() {
             </li>
             <li className="list-group-item">
               <a
-                href="https://www.facebook.com/messages/t/100000919429994"
-                className="text-secondary"
-                target="_blank"
-              >
-                <i class="bi bi-messenger"></i> <span>Messenger</span>
-              </a>
-            </li>
-            <li className="list-group-item">
-              <a
-                href="https://www.instagram.com/emmanugaban/"
-                className="text-secondary"
-                target="_blank"
-              >
-                <i class="bi bi-instagram"></i> <span>Instagram</span>
-              </a>
-            </li>
-            <li className="list-group-item">
-              <a
                 href="https://github.com/zZZemn"
                 className="text-secondary"
                 target="_blank"
@@ -72,7 +54,7 @@ function Home() {
             </li>
             <li className="list-group-item">
               <a
-                href="https://www.linkedin.com/in/emmanuel-ugaban-66ba932a0/"
+                href="https://www.linkedin.com/in/emmanuel-ugaban-44622a2b3/"
                 className="text-secondary"
                 target="_blank"
               >
